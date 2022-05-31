@@ -1,9 +1,10 @@
 <template>
     <div class="admin-wrap">
       <AdminHeader></AdminHeader>
-
       <el-container>
-        <el-aside width="200px">Aside</el-aside>
+        <el-aside width="200px">
+          <Nav></Nav>
+        </el-aside>
         <el-container>
           <router-view/>
         </el-container>
@@ -13,10 +14,12 @@
 
 <script>
 import AdminHeader from '@/components/AdminHeader'
+import Nav from '@/components/Nav'
 export default {
   name: "index",
   components:{
-    AdminHeader
+    AdminHeader,
+    Nav,
   },
   data() {
     return {}

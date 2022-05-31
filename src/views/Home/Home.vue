@@ -463,7 +463,7 @@ export default {
     },
     clickJump (){
       this.$router.push({
-        path: '/Order'
+        path: '/HomeOrder'
       })
     },
   },

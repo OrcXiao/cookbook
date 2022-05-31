@@ -10,12 +10,12 @@ const routes = [
       {
         path: '',
         name: 'Home',
-        component: ()=> import('@/views/Home')
+        component: ()=> import('@/views/Home/Home.vue')
       },
       {
-        path: 'Order',
-        name: 'Order',
-        component: ()=> import('@/views/Order')
+        path: 'HomeOrder',
+        name: 'HomeOrder',
+        component: ()=> import('@/views/HomeOrder/HomeOrder.vue')
       },
     ],
   },
@@ -27,8 +27,9 @@ const routes = [
       {
         path: '',
         name: 'Home',
-        component: ()=> import('@/views/Home')
+        component: ()=> import('@/views/Home/Home.vue')
       },
+
     ],
 
   },
