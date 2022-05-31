@@ -1,0 +1,63 @@
+.el-pagination {
+  padding: 20px 0 0;
+}
+
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
+  background: transparent;
+  border: 1px solid #E0E0E0;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #53C389;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: #53C389;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active:hover {
+  color: #ffffff;
+}
+
+.el-table__header .el-table__cell {
+  padding: 8px 0;
+}
+
+.el-table__header .cell {
+  font-size: 18px;
+  color: #666666;
+  font-weight: normal;
+}
+
+.el-table.consume-table {
+  .cell {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.el-button--warning {
+  background-color: #F29E44;
+  border-color: #F29E44;
+  color: #ffffff;
+}
+.el-button--success {
+  background: #53C389;
+  border-color: #53C389;
+  color: #ffffff;
+  width: 120px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+.common-query-btn,
+.common-reset-btn {
+  font-size: 22px;
+  width: 120px;
+  height: 50px;
+  border-radius: 6px;
+}
+.common-reset-btn{
+  border-color: #F29E44;
+  color: #F29E44;
+}
